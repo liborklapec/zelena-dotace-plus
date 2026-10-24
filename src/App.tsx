@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   Zap,
   Sun,
@@ -1746,6 +1746,7 @@ export default function App() {
             </div>
           </div>
 
+          <a className="cos-site-credit block text-left text-[11px] leading-relaxed text-gray-300 pb-4" href="https://czechonlinesystem.cz/">Vytvořeno v Czech Online System / 100%weby</a>
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-gray-400 text-sm">&copy; 2026 Zelena Dotace Plus s.r.o. Všechna práva vyhrazena.</p>
